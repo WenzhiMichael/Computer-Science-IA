@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
+from prettytable import PrettyTable
 
 url = 'https://www.op.gg/champions?region=global&tier=platinum_plus&position=top'
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'}
@@ -21,18 +21,20 @@ if response.status_code == 200:
         pick_rate = columns[4].get_text().strip()
         ban_rate = columns[5].get_text().strip()
         weak_against = [champ.get('alt').strip() for champ in columns[6].find_all('img')]
-        data.append([rank, champion, tier, win_rate, pick_rate, ban_rate, ", ".join(weak_against)])
+        data.append({'Rank': rank, 'Champion': champion, 'Tier': tier, 'Win Rate': win_rate, 'Pick Rate': pick_rate, 'Ban Rate': ban_rate, 'Weak Against': weak_against})
 
     # Sort the data by Tier (ascending) and then by Win Rate (descending)
-    data = sorted(data, key=lambda x: (x[2], -float(x[3].replace('%', ''))))
+    data = sorted(data, key=lambda x: (x['Tier'], -float(x['Win Rate'].replace('%', ''))))
 
-    # Write the data to a CSV file
-    with open('top.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(['Rank', 'Champion', 'Tier', 'Win Rate', 'Pick Rate', 'Ban Rate', 'Weak Against'])
-        writer.writerows(data)
+    # Create a new PrettyTable instance
+    x = PrettyTable()
+    x.field_names = ['Rank', 'Champion', 'Tier', 'Win Rate', 'Pick Rate', 'Ban Rate', 'Weak Against']
 
-    print("Data saved to top.csv")
+    # Add the rows to the table
+    for row in data:
+        x.add_row([row['Rank'], row['Champion'], row['Tier'], row['Win Rate'], row['Pick Rate'], row['Ban Rate'], ", ".join(row['Weak Against'])])
+
+    print(x)
 
 else:
     print(f"Response error: {response.status_code}")
