@@ -1,42 +1,42 @@
-Rank,Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
-230,Rakan,1,52.25%,12.52%,6.53%,"Senna, Taric, Zilean"
-260,Senna,1,52.10%,9.90%,3.75%,"Zac, Amumu, Blitzcrank"
-60,Blitzcrank,1,51.87%,8.85%,28.34%,"Rell, Rakan, Taric"
-170,Milio,1,51.20%,13.78%,20.86%,"Blitzcrank, Vel'Koz, Senna"
-340,Thresh,1,50.28%,20.21%,11.73%,"Fiddlesticks, Zyra, Rakan"
-330,Taric,2,52.10%,1.57%,0.21%,"Annie, Morgana, Amumu"
-290,Sona,2,51.96%,2.68%,0.08%,"Rell, Blitzcrank, Tahm Kench"
-31,Annie,2,51.55%,2.43%,2.83%,"Shaco, Rell, Maokai"
-410,Zyra,2,51.33%,3.22%,1.23%,"Shaco, Zac, Leona"
-30-1,Soraka,2,50.83%,4.34%,1.13%,"Zac, Rakan, Blitzcrank"
-220,Pyke,2,50.52%,7.22%,10.02%,"Shaco, Fiddlesticks, Rakan"
-200,Nautilus,2,50.02%,9.63%,11.67%,"Zac, Rell, Fiddlesticks"
-150,Lux,2,50.01%,8.49%,3.11%,"Amumu, Maokai, Annie"
-24-1,Rell,3,51.71%,1.26%,0.22%,"Twitch, Vel'Koz, Fiddlesticks"
-160,Maokai,3,51.45%,1.54%,0.35%,"Taric, Shaco, Braum"
-400,Zilean,3,50.97%,2.95%,0.91%,"Rell, Pyke, Sona"
-360,Vel'Koz,3,50.89%,1.94%,0.18%,"Shaco, Blitzcrank, Sona"
-110,Janna,3,50.71%,2.85%,0.41%,"Vel'Koz, Senna, Sona"
-20,Amumu,3,50.60%,2.07%,1.12%,"Zac, Maokai, Swain"
-50,Bard,3,50.46%,2.48%,0.21%,"Fiddlesticks, Zac, Maokai"
-80,Braum,3,50.46%,2.37%,0.25%,"Vel'Koz, Heimerdinger, Janna"
-11,Alistar,3,50.30%,4.19%,0.93%,"Fiddlesticks, Vel'Koz, Taric"
-37-1,Xerath,3,50.24%,4.23%,2.38%,"Annie, Blitzcrank, Tahm Kench"
-190,Nami,3,49.40%,6.10%,0.85%,"Maokai, Annie, Blitzcrank"
-180,Morgana,3,49.33%,4.83%,19.27%,"Heimerdinger, Fiddlesticks, Pantheon"
-381,Yuumi,3,48.96%,7.44%,21.48%,"Rell, Taric, Amumu"
-140,Lulu,3,48.51%,11.43%,10.25%,"Senna, Sona, Rell"
-90,Fiddlesticks,4,51.14%,0.51%,0.54%,"Maokai, Twitch, Shaco"
-100,Heimerdinger,4,50.64%,1.61%,1.22%,"Shaco, Sona, Annie"
-250,Renata Glasc,4,50.36%,2.29%,0.65%,"Rell, Xerath, Taric"
-280,Shaco,4,50.14%,1.20%,2.61%,"Taric, Sona, Soraka"
-270,Seraphine,4,49.59%,2.81%,0.30%,"Annie, Fiddlesticks, Taric"
-310,Swain,4,49.33%,2.70%,0.64%,"Heimerdinger, Xerath, Milio"
-130,Leona,4,49.25%,4.12%,2.67%,"Zac, Bard, Renata Glasc"
-70,Brand,4,49.24%,2.33%,0.80%,"Annie, Heimerdinger, Zilean"
-120,Karma,4,48.37%,7.34%,1.82%,"Rell, Maokai, Rakan"
-390,Zac,5,50.41%,0.57%,0.61%,"Zilean, Maokai, Renata Glasc"
-320,Tahm Kench,5,49.20%,0.67%,0.24%,"Taric, Senna, Renata Glasc"
-210,Pantheon,5,48.29%,1.49%,0.69%,"Braum, Leona, Rakan"
-40,Ashe,5,47.60%,2.13%,0.42%,"Fiddlesticks, Annie, Maokai"
-350,Twitch,5,47.02%,1.05%,1.00%,"Taric, Amumu, Sona"
+Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
+Rakan,1,52.25%,12.52%,6.53%,Senna;Taric;Zilean
+Senna,1,52.10%,9.90%,3.75%,Zac;Amumu;Blitzcrank
+Blitzcrank,1,51.87%,8.85%,28.34%,Rell;Rakan;Taric
+Milio,1,51.20%,13.78%,20.86%,Blitzcrank;Vel'Koz;Senna
+Thresh,1,50.28%,20.21%,11.73%,Fiddlesticks;Zyra;Rakan
+Taric,2,52.10%,1.57%,0.21%,Annie;Morgana;Amumu
+Sona,2,51.96%,2.68%,0.08%,Rell;Blitzcrank;Tahm Kench
+Annie,2,51.55%,2.43%,2.83%,Shaco;Rell;Maokai
+Zyra,2,51.33%,3.22%,1.23%,Shaco;Zac;Leona
+Soraka,2,50.83%,4.34%,1.13%,Zac;Rakan;Blitzcrank
+Pyke,2,50.52%,7.22%,10.02%,Shaco;Fiddlesticks;Rakan
+Nautilus,2,50.02%,9.63%,11.67%,Zac;Rell;Fiddlesticks
+Lux,2,50.01%,8.49%,3.11%,Amumu;Maokai;Annie
+Rell,3,51.71%,1.26%,0.22%,Twitch;Vel'Koz;Fiddlesticks
+Maokai,3,51.45%,1.54%,0.35%,Taric;Shaco;Braum
+Zilean,3,50.97%,2.95%,0.91%,Rell;Pyke;Sona
+Vel'Koz,3,50.89%,1.94%,0.18%,Shaco;Blitzcrank;Sona
+Janna,3,50.71%,2.85%,0.41%,Vel'Koz;Senna;Sona
+Amumu,3,50.60%,2.07%,1.12%,Zac;Maokai;Swain
+Bard,3,50.46%,2.48%,0.21%,Fiddlesticks;Zac;Maokai
+Braum,3,50.46%,2.37%,0.25%,Vel'Koz;Heimerdinger;Janna
+Alistar,3,50.30%,4.19%,0.93%,Fiddlesticks;Vel'Koz;Taric
+Xerath,3,50.24%,4.23%,2.38%,Annie;Blitzcrank;Tahm Kench
+Nami,3,49.40%,6.10%,0.85%,Maokai;Annie;Blitzcrank
+Morgana,3,49.33%,4.83%,19.27%,Heimerdinger;Fiddlesticks;Pantheon
+Yuumi,3,48.96%,7.44%,21.48%,Rell;Taric;Amumu
+Lulu,3,48.51%,11.43%,10.25%,Senna;Sona;Rell
+Fiddlesticks,4,51.14%,0.51%,0.54%,Maokai;Twitch;Shaco
+Heimerdinger,4,50.64%,1.61%,1.22%,Shaco;Sona;Annie
+Renata Glasc,4,50.36%,2.29%,0.65%,Rell;Xerath;Taric
+Shaco,4,50.14%,1.20%,2.61%,Taric;Sona;Soraka
+Seraphine,4,49.59%,2.81%,0.30%,Annie;Fiddlesticks;Taric
+Swain,4,49.33%,2.70%,0.64%,Heimerdinger;Xerath;Milio
+Leona,4,49.25%,4.12%,2.67%,Zac;Bard;Renata Glasc
+Brand,4,49.24%,2.33%,0.80%,Annie;Heimerdinger;Zilean
+Karma,4,48.37%,7.34%,1.82%,Rell;Maokai;Rakan
+Zac,5,50.41%,0.57%,0.61%,Zilean;Maokai;Renata Glasc
+Tahm Kench,5,49.20%,0.67%,0.24%,Taric;Senna;Renata Glasc
+Pantheon,5,48.29%,1.49%,0.69%,Braum;Leona;Rakan
+Ashe,5,47.60%,2.13%,0.42%,Fiddlesticks;Annie;Maokai
+Twitch,5,47.02%,1.05%,1.00%,Taric;Amumu;Sona
