@@ -1,27 +1,27 @@
-Rank,Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
-70,Jinx,0,51.37%,29.85%,12.77%,"Seraphine, Ziggs, Karthus"
-60,Jhin,1,50.87%,12.11%,1.00%,"Karthus, Veigar, Ziggs"
-230,Xayah,1,50.57%,17.99%,20.04%,"Ziggs, Karthus, Kog'Maw"
-160,Seraphine,2,53.80%,1.06%,0.11%,"Yasuo, Kalista, Ziggs"
-100,Karthus,2,53.56%,1.17%,0.92%,"Veigar, Seraphine, Sivir"
-140,Nilah,2,52.84%,2.47%,2.71%,"Karthus, Ziggs, Seraphine"
-221,Veigar,2,52.13%,2.19%,3.58%,"Ziggs, Seraphine, Vayne"
-190,Twitch,2,51.27%,4.73%,4.61%,"Nilah, Karthus, Seraphine"
-20,Ashe,2,50.85%,6.57%,1.31%,"Karthus, Ziggs, Veigar"
-21-1,Vayne,2,50.48%,6.95%,4.46%,"Seraphine, Ziggs, Ashe"
-80,Kai'Sa,2,49.64%,17.66%,2.07%,"Nilah, Karthus, Seraphine"
-261,Ziggs,3,53.40%,0.79%,0.04%,"Kalista, Karthus, Twitch"
-180,Tristana,3,50.55%,5.00%,1.08%,"Nilah, Karthus, Kog'Maw"
-13-2,Miss Fortune,3,50.45%,5.14%,0.33%,"Karthus, Ziggs, Seraphine"
-170,Sivir,3,50.26%,4.92%,0.84%,"Seraphine, Twitch, Kog'Maw"
-200,Varus,3,49.99%,8.15%,1.63%,"Karthus, Ziggs, Seraphine"
-40,Draven,3,49.82%,5.96%,19.69%,"Yasuo, Seraphine, Kog'Maw"
-150,Samira,3,49.69%,6.45%,14.78%,"Nilah, Ziggs, Veigar"
-251,Zeri,3,49.33%,9.75%,9.47%,"Ziggs, Twitch, Tristana"
-50,Ezreal,3,48.50%,15.47%,2.82%,"Seraphine, Karthus, Yasuo"
-120,Lucian,4,49.32%,7.03%,1.43%,"Seraphine, Karthus, Yasuo"
-30,Caitlyn,4,48.27%,11.28%,9.16%,"Ziggs, Seraphine, Karthus"
-110,Kog'Maw,5,51.02%,1.63%,0.22%,"Ziggs, Karthus, Nilah"
-240,Yasuo,5,50.41%,0.75%,1.07%,"Nilah, Kalista, Karthus"
-90,Kalista,5,48.81%,1.61%,0.29%,"Nilah, Miss Fortune, Karthus"
-10,Aphelios,5,46.94%,8.79%,0.98%,"Karthus, Yasuo, Nilah"
+Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
+Jinx,0,51.37%,29.85%,12.77%,Seraphine; Ziggs; Karthus
+Jhin,1,50.87%,12.11%,1.00%,Karthus; Veigar; Ziggs
+Xayah,1,50.57%,17.99%,20.04%,Ziggs; Karthus; Kog'Maw
+Seraphine,2,53.80%,1.06%,0.11%,Yasuo; Kalista; Ziggs
+Karthus,2,53.56%,1.17%,0.92%,Veigar; Seraphine; Sivir
+Nilah,2,52.84%,2.47%,2.71%,Karthus; Ziggs; Seraphine
+Veigar,2,52.13%,2.19%,3.58%,Ziggs; Seraphine; Vayne
+Twitch,2,51.27%,4.73%,4.61%,Nilah; Karthus; Seraphine
+Ashe,2,50.85%,6.57%,1.31%,Karthus; Ziggs; Veigar
+Vayne,2,50.48%,6.95%,4.46%,Seraphine; Ziggs; Ashe
+Kai'Sa,2,49.64%,17.66%,2.07%,Nilah; Karthus; Seraphine
+Ziggs,3,53.40%,0.79%,0.04%,Kalista; Karthus; Twitch
+Tristana,3,50.55%,5.00%,1.08%,Nilah; Karthus; Kog'Maw
+Miss Fortune,3,50.45%,5.14%,0.33%,Karthus; Ziggs; Seraphine
+Sivir,3,50.26%,4.92%,0.84%,Seraphine; Twitch; Kog'Maw
+Varus,3,49.99%,8.15%,1.63%,Karthus; Ziggs; Seraphine
+Draven,3,49.82%,5.96%,19.69%,Yasuo; Seraphine; Kog'Maw
+Samira,3,49.69%,6.45%,14.78%,Nilah; Ziggs; Veigar
+Zeri,3,49.33%,9.75%,9.47%,Ziggs; Twitch; Tristana
+Ezreal,3,48.50%,15.47%,2.82%,Seraphine; Karthus; Yasuo
+Lucian,4,49.32%,7.03%,1.43%,Seraphine; Karthus; Yasuo
+Caitlyn,4,48.27%,11.28%,9.16%,Ziggs; Seraphine; Karthus
+Kog'Maw,5,51.02%,1.63%,0.22%,Ziggs; Karthus; Nilah
+Yasuo,5,50.41%,0.75%,1.07%,Nilah; Kalista; Karthus
+Kalista,5,48.81%,1.61%,0.29%,Nilah; Miss Fortune; Karthus
+Aphelios,5,46.94%,8.79%,0.98%,Karthus; Yasuo; Nilah

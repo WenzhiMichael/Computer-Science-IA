@@ -1,56 +1,56 @@
-Rank,Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
-50,Annie,1,52.58%,3.90%,4.57%,"Aurelion Sol, Lux, Talon"
-80,Cassiopeia,1,52.33%,3.27%,3.23%,"Singed, Malzahar, Xerath"
-40,Anivia,1,52.25%,3.15%,5.03%,"Swain, Kennen, Rumble"
-310,Pantheon,1,52.16%,3.38%,1.59%,"Kennen, Anivia, Ziggs"
-60,Aurelion Sol,1,51.09%,6.38%,23.00%,"Fizz, Akshan, Singed"
-10,Ahri,1,50.96%,11.90%,4.02%,"Annie, Akshan, Singed"
-270,Malphite,2,52.49%,1.41%,3.48%,"Swain, Rumble, Sylas"
-30,Akshan,2,52.14%,2.78%,2.89%,"Neeko, Pantheon, Yasuo"
-470,Vex,2,51.28%,3.91%,5.18%,"Swain, Anivia, Singed"
-49-2,Vladimir,2,50.93%,5.12%,5.45%,"Malzahar, Zoe, Malphite"
-131,Fizz,2,50.84%,5.54%,5.36%,"Kennen, Pantheon, Akshan"
-480,Viktor,2,50.32%,7.06%,3.84%,"Singed, Rumble, Talon"
-380,Sylas,2,49.88%,7.27%,8.80%,"Singed, Taliyah, Cassiopeia"
-530,Zed,2,49.70%,9.10%,27.09%,"Singed, Malphite, Gragas"
-211,Katarina,2,49.48%,10.93%,18.34%,"Singed, Kennen, Akshan"
-370,Swain,3,52.22%,1.18%,0.28%,"Cassiopeia, Irelia, Vel'Koz"
-340,Rumble,3,51.61%,1.84%,0.99%,"Vel'Koz, Cho'Gath, Varus"
-550,Zoe,3,50.89%,2.71%,1.29%,"Swain, Annie, Malzahar"
-280,Malzahar,3,50.60%,3.73%,3.17%,"Singed, Swain, Aurelion Sol"
-260,Lux,3,50.48%,3.46%,1.28%,"Cassiopeia, Anivia, Xerath"
-410,Talon,3,50.48%,3.67%,1.98%,"Malphite, Swain, Neeko"
-250,Lissandra,3,50.15%,5.00%,1.55%,"Swain, Cho'Gath, Cassiopeia"
-450,Veigar,3,49.87%,5.45%,8.79%,"Singed, Jayce, Katarina"
-510,Yasuo,3,49.24%,8.00%,11.24%,"Kennen, Malphite, Annie"
-360,Singed,4,53.10%,0.57%,0.08%,"Malphite, Vel'Koz, Neeko"
-230,Kennen,4,51.76%,0.98%,0.35%,"Neeko, Zoe, Swain"
-460,Vel'Koz,4,50.95%,0.90%,0.08%,"Neeko, Diana, Ziggs"
-90,Cho'Gath,4,50.64%,1.07%,0.31%,"Neeko, Taliyah, Lux"
-400,Taliyah,4,50.58%,1.54%,0.20%,"Singed, Vel'Koz, Xerath"
-140,Galio,4,50.54%,2.30%,0.27%,"Gangplank, Singed, Swain"
-42-1,Tristana,4,50.28%,1.54%,0.33%,"Renekton, Cassiopeia, Yasuo"
-500,Xerath,4,50.25%,1.35%,0.77%,"Ekko, Fizz, Akshan"
-120,Ekko,4,50.08%,2.46%,1.45%,"K'Sante, Vex, Zoe"
-16-1,Gragas,4,50.04%,1.54%,0.94%,"Singed, Swain, Neeko"
-180,Jayce,4,49.88%,1.96%,1.30%,"Vel'Koz, Kayle, Cho'Gath"
-110,Diana,4,49.87%,2.01%,0.84%,"Renekton, Galio, Rumble"
-300,Orianna,4,49.59%,2.51%,0.13%,"Singed, Talon, Malphite"
-201,Kassadin,4,49.41%,2.58%,7.74%,"Akshan, Varus, Tristana"
-170,Irelia,4,49.32%,4.26%,8.62%,"Malphite, Galio, Cassiopeia"
-390,Syndra,4,49.24%,4.90%,2.06%,"Rumble, Irelia, Fizz"
-430,Twisted Fate,4,49.17%,2.79%,0.16%,"Singed, Gangplank, Diana"
-321,Qiyana,4,49.14%,3.01%,0.79%,"Gangplank, Malphite, Rumble"
-520,Yone,4,48.53%,5.58%,4.06%,"Akshan, Kennen, Annie"
-20,Akali,4,48.01%,4.47%,5.25%,"Renekton, Pantheon, Kennen"
-240,LeBlanc,4,47.97%,5.99%,10.57%,"Akshan, Vex, Varus"
-290,Neeko,5,50.45%,0.62%,0.05%,"Cassiopeia, Corki, Taliyah"
-220,Kayle,5,50.41%,0.50%,0.10%,"Cassiopeia, Vel'Koz, Xerath"
-540,Ziggs,5,49.45%,1.19%,0.07%,"Cho'Gath, Kayle, Twisted Fate"
-330,Renekton,5,49.37%,0.57%,0.30%,"Swain, Taliyah, Twisted Fate"
-150,Gangplank,5,49.10%,1.02%,1.39%,"Swain, Cho'Gath, Kennen"
-440,Varus,5,48.72%,0.82%,0.16%,"Zoe, Vel'Koz, Malphite"
-350,Ryze,5,47.93%,1.75%,0.22%,"K'Sante, Annie, Neeko"
-100,Corki,5,47.46%,0.87%,0.08%,"Kennen, Swain, Taliyah"
-70,Azir,5,47.14%,2.18%,0.29%,"Kennen, Zoe, Vel'Koz"
-190,K'Sante,5,46.08%,0.52%,0.37%,"Anivia, Taliyah, Cassiopeia"
+Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
+Annie,1,52.58%,3.90%,4.57%,Aurelion Sol; Lux; Talon
+Cassiopeia,1,52.33%,3.27%,3.23%,Singed; Malzahar; Xerath
+Anivia,1,52.25%,3.15%,5.03%,Swain; Kennen; Rumble
+Pantheon,1,52.16%,3.38%,1.59%,Kennen; Anivia; Ziggs
+Aurelion Sol,1,51.09%,6.38%,23.00%,Fizz; Akshan; Singed
+Ahri,1,50.96%,11.90%,4.02%,Annie; Akshan; Singed
+Malphite,2,52.49%,1.41%,3.48%,Swain; Rumble; Sylas
+Akshan,2,52.14%,2.78%,2.89%,Neeko; Pantheon; Yasuo
+Vex,2,51.28%,3.91%,5.18%,Swain; Anivia; Singed
+Vladimir,2,50.93%,5.12%,5.45%,Malzahar; Zoe; Malphite
+Fizz,2,50.84%,5.54%,5.36%,Kennen; Pantheon; Akshan
+Viktor,2,50.32%,7.06%,3.84%,Singed; Rumble; Talon
+Sylas,2,49.88%,7.27%,8.80%,Singed; Taliyah; Cassiopeia
+Zed,2,49.70%,9.10%,27.09%,Singed; Malphite; Gragas
+Katarina,2,49.48%,10.93%,18.34%,Singed; Kennen; Akshan
+Swain,3,52.22%,1.18%,0.28%,Cassiopeia; Irelia; Vel'Koz
+Rumble,3,51.61%,1.84%,0.99%,Vel'Koz; Cho'Gath; Varus
+Zoe,3,50.89%,2.71%,1.29%,Swain; Annie; Malzahar
+Malzahar,3,50.60%,3.73%,3.17%,Singed; Swain; Aurelion Sol
+Lux,3,50.48%,3.46%,1.28%,Cassiopeia; Anivia; Xerath
+Talon,3,50.48%,3.67%,1.98%,Malphite; Swain; Neeko
+Lissandra,3,50.15%,5.00%,1.55%,Swain; Cho'Gath; Cassiopeia
+Veigar,3,49.87%,5.45%,8.79%,Singed; Jayce; Katarina
+Yasuo,3,49.24%,8.00%,11.24%,Kennen; Malphite; Annie
+Singed,4,53.10%,0.57%,0.08%,Malphite; Vel'Koz; Neeko
+Kennen,4,51.76%,0.98%,0.35%,Neeko; Zoe; Swain
+Vel'Koz,4,50.95%,0.90%,0.08%,Neeko; Diana; Ziggs
+Cho'Gath,4,50.64%,1.07%,0.31%,Neeko; Taliyah; Lux
+Taliyah,4,50.58%,1.54%,0.20%,Singed; Vel'Koz; Xerath
+Galio,4,50.54%,2.30%,0.27%,Gangplank; Singed; Swain
+Tristana,4,50.28%,1.54%,0.33%,Renekton; Cassiopeia; Yasuo
+Xerath,4,50.25%,1.35%,0.77%,Ekko; Fizz; Akshan
+Ekko,4,50.08%,2.46%,1.45%,K'Sante; Vex; Zoe
+Gragas,4,50.04%,1.54%,0.94%,Singed; Swain; Neeko
+Jayce,4,49.88%,1.96%,1.30%,Vel'Koz; Kayle; Cho'Gath
+Diana,4,49.87%,2.01%,0.84%,Renekton; Galio; Rumble
+Orianna,4,49.59%,2.51%,0.13%,Singed; Talon; Malphite
+Kassadin,4,49.41%,2.58%,7.74%,Akshan; Varus; Tristana
+Irelia,4,49.32%,4.26%,8.62%,Malphite; Galio; Cassiopeia
+Syndra,4,49.24%,4.90%,2.06%,Rumble; Irelia; Fizz
+Twisted Fate,4,49.17%,2.79%,0.16%,Singed; Gangplank; Diana
+Qiyana,4,49.14%,3.01%,0.79%,Gangplank; Malphite; Rumble
+Yone,4,48.53%,5.58%,4.06%,Akshan; Kennen; Annie
+Akali,4,48.01%,4.47%,5.25%,Renekton; Pantheon; Kennen
+LeBlanc,4,47.97%,5.99%,10.57%,Akshan; Vex; Varus
+Neeko,5,50.45%,0.62%,0.05%,Cassiopeia; Corki; Taliyah
+Kayle,5,50.41%,0.50%,0.10%,Cassiopeia; Vel'Koz; Xerath
+Ziggs,5,49.45%,1.19%,0.07%,Cho'Gath; Kayle; Twisted Fate
+Renekton,5,49.37%,0.57%,0.30%,Swain; Taliyah; Twisted Fate
+Gangplank,5,49.10%,1.02%,1.39%,Swain; Cho'Gath; Kennen
+Varus,5,48.72%,0.82%,0.16%,Zoe; Vel'Koz; Malphite
+Ryze,5,47.93%,1.75%,0.22%,K'Sante; Annie; Neeko
+Corki,5,47.46%,0.87%,0.08%,Kennen; Swain; Taliyah
+Azir,5,47.14%,2.18%,0.29%,Kennen; Zoe; Vel'Koz
+K'Sante,5,46.08%,0.52%,0.37%,Anivia; Taliyah; Cassiopeia

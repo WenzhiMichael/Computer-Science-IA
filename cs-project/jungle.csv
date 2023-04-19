@@ -1,46 +1,46 @@
-Rank,Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
-120,Jarvan IV,0,52.89%,14.61%,26.62%,"Kindred, Taliyah, Master Yi"
-70,Fiddlesticks,1,52.22%,4.22%,4.53%,"Maokai, Amumu, Volibear"
-220,Nocturne,1,51.37%,4.99%,2.95%,"Udyr, Jarvan IV, Taliyah"
-140,Kayn,1,50.69%,9.99%,10.88%,"Poppy, Rek'Sai, Trundle"
-200,Master Yi,1,50.62%,6.32%,13.04%,"Shaco, Amumu, Elise"
-80,Gragas,1,50.61%,7.21%,4.42%,"Jarvan IV, Fiddlesticks, Ivern"
-40,Ekko,1,50.46%,7.16%,4.26%,"Skarner, Kindred, Ivern"
-370,Udyr,2,51.42%,3.04%,4.45%,"Jarvan IV, Kindred, Warwick"
-20,Bel'Veth,2,51.18%,3.22%,4.39%,"Elise, Taliyah, Rek'Sai"
-60,Evelynn,2,50.98%,4.32%,12.16%,"Poppy, Taliyah, Fiddlesticks"
-440,Zac,2,50.90%,4.44%,4.74%,"Taliyah, Jarvan IV, Warwick"
-160,Kindred,2,50.69%,4.83%,4.79%,"Shaco, Rammus, Skarner"
-50,Elise,2,50.57%,3.73%,9.97%,"Trundle, Maokai, Shaco"
-280,Rengar,2,50.56%,3.71%,4.60%,"Warwick, Rammus, Taliyah"
-300,Shaco,2,50.51%,4.90%,10.83%,"Jarvan IV, Skarner, Udyr"
-380,Vi,2,50.26%,7.04%,4.67%,"Skarner, Fiddlesticks, Jarvan IV"
-150,Kha'Zix,2,50.24%,5.60%,1.84%,"Rengar, Fiddlesticks, Rek'Sai"
-420,Wukong,2,49.86%,7.00%,8.61%,"Taliyah, Maokai, Skarner"
-100,Hecarim,2,49.82%,8.69%,17.57%,"Skarner, Maokai, Jarvan IV"
-170,Lee Sin,2,48.29%,15.05%,13.64%,"Poppy, Jarvan IV, Rek'Sai"
-320,Skarner,3,51.61%,0.76%,0.09%,"Taliyah, Pantheon, Nocturne"
-191,Maokai,3,51.28%,2.02%,0.47%,"Trundle, Kindred, Talon"
-270,Rek'Sai,3,51.12%,1.46%,0.89%,"Volibear, Ivern, Karthus"
-410,Warwick,3,50.70%,2.17%,0.84%,"Rammus, Lillia, Fiddlesticks"
-260,Rammus,3,50.66%,2.20%,5.94%,"Lillia, Jarvan IV, Maokai"
-43-1,Xin Zhao,3,50.54%,2.65%,0.32%,"Trundle, Zac, Ekko"
-230,Nunu & Willump,3,50.40%,3.39%,1.06%,"Jarvan IV, Kindred, Taliyah"
-10,Amumu,3,49.95%,2.24%,1.23%,"Volibear, Udyr, Karthus"
-180,Lillia,3,49.65%,2.15%,0.62%,"Jarvan IV, Taliyah, Kindred"
-210,Nidalee,3,49.64%,4.35%,3.49%,"Amumu, Skarner, Rengar"
-30,Diana,3,49.03%,4.69%,1.97%,"Taliyah, Skarner, Pantheon"
-331,Sylas,3,48.91%,5.14%,6.25%,"Ivern, Rek'Sai, Poppy"
-39-1,Viego,3,48.85%,7.48%,2.08%,"Taliyah, Volibear, Nidalee"
-290,Sejuani,3,48.74%,3.66%,0.98%,"Volibear, Poppy, Lillia"
-90,Graves,3,47.40%,8.36%,4.17%,"Gragas, Fiddlesticks, Jarvan IV"
-340,Taliyah,4,50.61%,0.58%,0.08%,"Ivern, Kha'Zix, Karthus"
-250,Poppy,4,50.23%,1.26%,0.45%,"Nunu & Willump, Taliyah, Maokai"
-110,Ivern,4,49.92%,0.86%,0.14%,"Skarner, Nocturne, Fiddlesticks"
-360,Trundle,4,49.81%,0.93%,0.24%,"Skarner, Poppy, Rek'Sai"
-400,Volibear,4,49.68%,1.01%,0.13%,"Udyr, Shaco, Rengar"
-350,Talon,4,49.33%,1.53%,0.83%,"Nunu & Willump, Warwick, Rengar"
-310,Shyvana,4,49.31%,1.66%,0.19%,"Ivern, Nunu & Willump, Rengar"
-130,Karthus,4,49.04%,2.43%,1.89%,"Volibear, Skarner, Rammus"
-240,Pantheon,5,48.57%,0.74%,0.35%,"Volibear, Maokai, Talon"
-450,Zed,5,45.79%,1.41%,4.22%,"Maokai, Skarner, Poppy"
+Champion,Tier,Win Rate,Pick Rate,Ban Rate,Weak Against
+Jarvan IV,0,52.89%,14.61%,26.62%,Kindred; Taliyah; Master Yi
+Fiddlesticks,1,52.22%,4.22%,4.53%,Maokai; Amumu; Volibear
+Nocturne,1,51.37%,4.99%,2.95%,Udyr; Jarvan IV; Taliyah
+Kayn,1,50.69%,9.99%,10.88%,Poppy; Rek'Sai; Trundle
+Master Yi,1,50.62%,6.32%,13.04%,Shaco; Amumu; Elise
+Gragas,1,50.61%,7.21%,4.42%,Jarvan IV; Fiddlesticks; Ivern
+Ekko,1,50.46%,7.16%,4.26%,Skarner; Kindred; Ivern
+Udyr,2,51.42%,3.04%,4.45%,Jarvan IV; Kindred; Warwick
+Bel'Veth,2,51.18%,3.22%,4.39%,Elise; Taliyah; Rek'Sai
+Evelynn,2,50.98%,4.32%,12.16%,Poppy; Taliyah; Fiddlesticks
+Zac,2,50.90%,4.44%,4.74%,Taliyah; Jarvan IV; Warwick
+Kindred,2,50.69%,4.83%,4.79%,Shaco; Rammus; Skarner
+Elise,2,50.57%,3.73%,9.97%,Trundle; Maokai; Shaco
+Rengar,2,50.56%,3.71%,4.60%,Warwick; Rammus; Taliyah
+Shaco,2,50.51%,4.90%,10.83%,Jarvan IV; Skarner; Udyr
+Vi,2,50.26%,7.04%,4.67%,Skarner; Fiddlesticks; Jarvan IV
+Kha'Zix,2,50.24%,5.60%,1.84%,Rengar; Fiddlesticks; Rek'Sai
+Wukong,2,49.86%,7.00%,8.61%,Taliyah; Maokai; Skarner
+Hecarim,2,49.82%,8.69%,17.57%,Skarner; Maokai; Jarvan IV
+Lee Sin,2,48.29%,15.05%,13.64%,Poppy; Jarvan IV; Rek'Sai
+Skarner,3,51.61%,0.76%,0.09%,Taliyah; Pantheon; Nocturne
+Maokai,3,51.28%,2.02%,0.47%,Trundle; Kindred; Talon
+Rek'Sai,3,51.12%,1.46%,0.89%,Volibear; Ivern; Karthus
+Warwick,3,50.70%,2.17%,0.84%,Rammus; Lillia; Fiddlesticks
+Rammus,3,50.66%,2.20%,5.94%,Lillia; Jarvan IV; Maokai
+Xin Zhao,3,50.54%,2.65%,0.32%,Trundle; Zac; Ekko
+Nunu & Willump,3,50.40%,3.39%,1.06%,Jarvan IV; Kindred; Taliyah
+Amumu,3,49.95%,2.24%,1.23%,Volibear; Udyr; Karthus
+Lillia,3,49.65%,2.15%,0.62%,Jarvan IV; Taliyah; Kindred
+Nidalee,3,49.64%,4.35%,3.49%,Amumu; Skarner; Rengar
+Diana,3,49.03%,4.69%,1.97%,Taliyah; Skarner; Pantheon
+Sylas,3,48.91%,5.14%,6.25%,Ivern; Rek'Sai; Poppy
+Viego,3,48.85%,7.48%,2.08%,Taliyah; Volibear; Nidalee
+Sejuani,3,48.74%,3.66%,0.98%,Volibear; Poppy; Lillia
+Graves,3,47.40%,8.36%,4.17%,Gragas; Fiddlesticks; Jarvan IV
+Taliyah,4,50.61%,0.58%,0.08%,Ivern; Kha'Zix; Karthus
+Poppy,4,50.23%,1.26%,0.45%,Nunu & Willump; Taliyah; Maokai
+Ivern,4,49.92%,0.86%,0.14%,Skarner; Nocturne; Fiddlesticks
+Trundle,4,49.81%,0.93%,0.24%,Skarner; Poppy; Rek'Sai
+Volibear,4,49.68%,1.01%,0.13%,Udyr; Shaco; Rengar
+Talon,4,49.33%,1.53%,0.83%,Nunu & Willump; Warwick; Rengar
+Shyvana,4,49.31%,1.66%,0.19%,Ivern; Nunu & Willump; Rengar
+Karthus,4,49.04%,2.43%,1.89%,Volibear; Skarner; Rammus
+Pantheon,5,48.57%,0.74%,0.35%,Volibear; Maokai; Talon
+Zed,5,45.79%,1.41%,4.22%,Maokai; Skarner; Poppy

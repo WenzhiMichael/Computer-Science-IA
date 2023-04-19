@@ -1,20 +1,42 @@
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.JTableHeader;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+
 
 public class Main {
 
+    private static boolean isAscending = true;
+
     public static void main(String[] args) {
+
         SwingUtilities.invokeLater(() -> {
             try {
                 createAndShowGUI();
             } catch (IOException e) {
                 e.printStackTrace();
+            }
+        });
+    }
+
+    // Update the addTableHeaderMouseListener method like this
+    private static void addTableHeaderMouseListener(JTable table) {
+        table.getTableHeader().addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                int columnIndex = table.columnAtPoint(e.getPoint());
+                if (columnIndex >= 0 && columnIndex < 6) { // Change this value to 6 to include the last column
+                    sortTableData(table, columnIndex);
+                    isAscending = !isAscending; // Toggle the sorting direction
+                }
             }
         });
     }
@@ -42,6 +64,51 @@ public class Main {
         homePanel.add(welcomeLabel);
 
         return homePanel;
+    }
+
+    // Modify the sortTableData method like this
+    private static void sortTableData(JTable table, int columnIndex) {
+        DefaultTableModel tableModel = (DefaultTableModel) table.getModel();
+        int rowCount = tableModel.getRowCount();
+        ArrayList<Object[]> rows = new ArrayList<>();
+
+        // Save the current table data
+        for (int i = 0; i < rowCount; i++) {
+            Object[] row =
+
+                    new Object[6];
+            for (int j = 0; j < 6; j++) {
+                row[j] = tableModel.getValueAt(i, j);
+            }
+            rows.add(row);
+        }
+
+        // Sort the data based on the column index
+        rows.sort((a, b) -> {
+            int comparison;
+            switch (columnIndex) {
+                case 0:
+                    comparison = ((String) a[columnIndex]).compareTo((String) b[columnIndex]);
+                    break;
+                case 1:
+                    comparison = ((String) a[columnIndex]).compareTo((String) b[columnIndex]);
+                    break;
+                case 2:
+                case 3:
+                case 4:
+                    comparison = Double.compare(Double.parseDouble(((String) b[columnIndex]).substring(0, ((String) b[columnIndex]).length() - 1)), Double.parseDouble(((String) a[columnIndex]).substring(0, ((String) a[columnIndex]).length() - 1)));
+                    break;
+                default:
+                    comparison = 0;
+            }
+            return isAscending ? comparison : -comparison;
+        });
+
+        // Update the table with the sorted data
+        tableModel.setRowCount(0);
+        for (Object[] row : rows) {
+            tableModel.addRow(row);
+        }
     }
 
     private static void createAndShowGUI() throws IOException {
@@ -73,6 +140,34 @@ public class Main {
         table.setForeground(Color.ORANGE);
         table.setBackground(Color.DARK_GRAY);
         JScrollPane scrollPane = new JScrollPane(table);
+
+        // Custom table header with red inverted triangle
+        JTableHeader tableHeader = new JTableHeader(table.getColumnModel()) {
+            @Override
+            public void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                Graphics2D g2d = (Graphics2D) g.create();
+                g2d.setColor(Color.RED);
+
+                int triangleSize = 15;
+                int[] xPoints = new int[]{0, -triangleSize, 0};
+                int[] yPoints = new int[]{5, 5, 5 + triangleSize};
+
+                for (int i = 0; i < 5; i++) { // Change this value to 4 to exclude the last column
+                    Rectangle rect = getHeaderRect(i);
+                    g2d.translate(rect.x + rect.width - 15, 0); // Move the triangle to the rightmost edge of the column
+                    g2d.fillPolygon(xPoints, yPoints, 3);
+                    g2d.translate(-(rect.x + rect.width - 15), 0);
+                }
+                g2d.dispose();
+            }
+        };
+
+
+        table.setTableHeader(tableHeader);
+        tableHeader.setFont(new Font("Arial", Font.PLAIN, 16));
+        tableHeader.setBackground(Color.WHITE);
+        tableHeader.setForeground(Color.BLACK);
 
         contentPanel.add(homePanel, "Home");
         contentPanel.add(scrollPane, "Table");
@@ -107,6 +202,9 @@ public class Main {
         adcButton.addActionListener(buttonListener);
         supportButton.addActionListener(buttonListener);
 
+        // Add this line after creating the table
+        addTableHeaderMouseListener(table);
+
         homeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -120,8 +218,9 @@ public class Main {
         frame.setVisible(true);
     }
 
+
     private static void updateTable(String csvFile, JTable table) {
-        String[] columnNames = {"Rank", "Champion", "Tier", "Win Rate", "Pick Rate", "Ban Rate", "Weak Against"};
+        String[] columnNames = { "Champion", "Tier", "Win Rate", "Pick Rate", "Ban Rate", "Weak Against"};
         DefaultTableModel tableModel = new DefaultTableModel(columnNames, 0);
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
@@ -136,5 +235,15 @@ public class Main {
         }
 
         table.setModel(tableModel);
+        table.getTableHeader().setFont(new Font("Arial", Font.PLAIN, 16));
+        table.getTableHeader().setBackground(Color.WHITE);
+        table.getTableHeader().setForeground(Color.BLACK);
+        table.setRowHeight(30);
+        table.getColumnModel().getColumn(1).setPreferredWidth(50); // Tier
+        table.getColumnModel().getColumn(2).setPreferredWidth(80); // Win Rate
+        table.getColumnModel().getColumn(3).setPreferredWidth(80); // Pick Rate
+        table.getColumnModel().getColumn(4).setPreferredWidth(80); // Ban Rate
     }
+
+
 }
